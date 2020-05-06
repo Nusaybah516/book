@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+}
+footer{
+  background-color: rgb(207,19,107);
+  font-style: italic;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.link{
+  color: black;
+}
+
+h1{
+  text-align: center;
+  color: rebeccapurple;
+}
+
+h3{
+  text-align: center;
+}
+
+p{
+  font-size: medium;
+  font-weight: bold;
+}
+
+nav{
+  
+  width: 90%;
+  margin: 10px auto;
+  text-align: justify;
+}
+nav ul li{
+  display: inline-block;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(101, 38, 107);
+  font-size: 20px;
+  margin: 0 10px;
+  letter-spacing: 1px;
+}
+nav ul li a:hover{
+  text-decoration: none;
+}
+
+
+.container{
+  display: flex;
+}
+
+img{
+  width: 40%;
+  margin: 30px;
+  object-fit: cover;
+  border: 2px solid white;
+  border-radius: 10px;
+  float: left;
+}
+
+.text{
+  width: 70%;
+  padding: 78px 40px;
+}
+
+button{
+  outline: none;
+  background-color: navy;
+  color:white;
+  border: 1px solid navy;
+  border-radius: 10px;
+  font-size: 10px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+.text p{
+  margin-bottom: 40px;
+  font-size: 23px;
+}
+
+
+@media screen and (max-width: 1075px){
+  img{
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  body{
+    font-size: 10px;
+  }
+  .container{
+    display: block;
+  }
+  img{
+    display: block;
+    width: 90%;
+    height: 350px;
+    margin: 5%;
+    border: none;
+    border-radius: 4px;
+  }
+  .text{
+    text-align: center;
+    margin: auto;
+  }
+  button{
+    font-size: 10px;
+  }
+  h1{
+    margin: 4% 0 0 0;
+  }
+  .text p{
+    border-bottom: 20px;
+    font-size: 16px;
+  }
+  li a{
+    margin: 0 1.5vw;
+  }
+}
